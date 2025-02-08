@@ -1,3 +1,5 @@
+//GITHUB EXERCISE TEST
+
 /*DEL ROSARIO RENZ ANDREI   -     IT2C     -     INTEPROG  -    Exercise: Basics and Fundamentals of C++
 Description: A program that accepts elements for 2 arrays and merge the elements into another array in descending order. The array would only accept a total of 20 elements,
 comprising of 10 from array 1 and 10 from array 2. The accepted elements are only numbers. Letters, words, and symbols would not be accepted*/
