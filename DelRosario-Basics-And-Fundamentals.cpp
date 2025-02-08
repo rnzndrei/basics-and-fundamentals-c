@@ -1,4 +1,16 @@
 //GITHUB EXERCISE TEST
+/*
+Directions:
+1. Create a remote repository on your GitHub account. (name of repository 'basics-and-fundamentals-c')
+2. Clone that repository into your local machine.
+3. Create a new branch.
+4. Add the .cpp file from your Exercise: C++ Basics and Fundamentals activity to that repository. 
+5. Add and commit the changes to that new branch.
+6. Push the changes from that new branch up to your remote repository in GitHub.
+7. Merge that pull request.
+8. Submit here the repository link of your remote repository in GitHub.
+Note: Use git commands
+*/
 
 /*DEL ROSARIO RENZ ANDREI   -     IT2C     -     INTEPROG  -    Exercise: Basics and Fundamentals of C++
 Description: A program that accepts elements for 2 arrays and merge the elements into another array in descending order. The array would only accept a total of 20 elements,
@@ -9,7 +21,7 @@ comprising of 10 from array 1 and 10 from array 2. The accepted elements are onl
 using namespace std;
 
 void line (){
-    cout << "\n-----------------------------------------------------------------" << endl;
+    cout << "\n-----------------------------------------------------------------" << endl;           // To output lines
 }
 void inputSize (int &size, const string& text){
     cout << "\nHow many elements would you like to enter in " << text;
@@ -94,6 +106,7 @@ int main (){
         }
     line();
 
+    // To repeat the process if the user inputs y, it would repeat if neither n or y is inputted.
     while (true) {
             cout << "\nDo you want to input another set of arrays? (Y/N): ";
             cin >> ans;
